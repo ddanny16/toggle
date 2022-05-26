@@ -1,0 +1,47 @@
+h1{
+    font-size: 68px;
+    width: 500px;
+}
+.span1{
+    display: inline-block;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    grid-gap: 80px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.img-container img{
+    width:  100%;
+    height: fit-content;
+}
+.logos{
+    margin-top:80px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-btn{
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 15px;
+    transition: all 3s;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: grey;
+    font-family: bold;
+    transition: all 3s;
+    cursor: pointer;
+}
